@@ -1,0 +1,110 @@
+@import url('reset.css');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(30, 38%, 92%);
+}
+
+.card-product-scream {
+    display: flex;
+    gap: 16px;
+    width: 600px;
+    justify-content: center;
+
+    background-color: #fff;
+
+    border-radius: 15px;
+    box-shadow: 0px 2px 15px;
+}
+
+.prf-perfume {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+
+    opacity: 0.5;
+    padding-bottom: 15px;
+}
+
+h1 {
+    font-family: 'Fraunces', serif;
+    font-size: 35px;
+}
+
+.art-one {
+    display: flex;
+    flex-direction: column;
+    padding: 22px;
+}
+
+.prf-tuo {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    padding-top: 18px;
+    opacity: 0.5;
+}
+
+.cash-button {
+    display: flex;
+    flex-direction: column;
+    padding-top: 15px;
+}
+
+button {
+    display: flex;
+    width: 250px;
+
+    background-color: hsl(158, 36%, 37%);
+    color: hsl(30, 38%, 92%);
+
+    padding: 15px;
+    margin-top: 25px;
+
+    border: none;
+    border-radius: 6px;
+
+    justify-content: center;
+    gap: 10px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+.prf-cash {
+    margin-top: 25px;
+    display: flex;
+    gap: 25px;
+    font-family: 'Fraunces', serif;
+    font-size: 30px;
+    align-items: center;
+    color: hsl(158, 36%, 37%);
+}
+
+.prf-cash > span {
+    font-size: 12px;
+    opacity: 0.5;
+    text-decoration: line-through;
+}
+
+.product-img {
+    height: 450px;
+    width: 300px;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.attribution {
+    font-size: 11px; 
+    text-align: center;
+    margin-top: 15px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
